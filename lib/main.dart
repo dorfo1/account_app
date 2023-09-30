@@ -15,13 +15,12 @@ const String kRouteStatement = "/statement";
 void main() {
   initializeDateFormatting('pt-BR', null).then((_) {
     runApp(const MyApp());
-
   });
 }
 
 final user = User(
-  firstname: "Rodolfo",
-  lastname: "Bacocina",
+  firstname: "Naruto",
+  lastname: "Uzumaki",
   document: "123.456.789-11",
   address: "Rua da rua",
   photo: "https://s2.glbimg.com/88a4QNHTzEa2Pwm0NmiFtvja-5I=/0x0:1200x768/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/6/Z/BtyF8UT5aeLFwmccA9CQ/fotonaruto2.jpg",
